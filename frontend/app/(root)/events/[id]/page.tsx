@@ -116,7 +116,7 @@ export default async function Page({
 
           <div className='space-y-2'>
             <h3 className='font-semibold text-lg'>About this event</h3>
-            <p className='text-gray-500 text-[15px]'>{event.description}</p>
+            <p className='whitespace-pre-wrap text-gray-500 text-[15px]'>{event.description}</p>
           </div>
 
           <div id='carousel-container' className='flex flex-col gap-4'>
